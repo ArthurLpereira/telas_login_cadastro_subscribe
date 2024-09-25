@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Sing up</title>
+    <title>Sing in</title>
 </head>
 <body>
-    <main id="main_menor">
+    <main>
+
         <div class="esquerda">
-            <h1>Sing In</h1>
-            <p>New user ?<a href="./sing_in.html">Create an account</a></p>
+            <h1>Create An Account</h1>
+            <p>Already an user <a href="./Subscribe.html">Sing in</a></p>
 
             <form action="" method="post">
-                <input type="text" name="text" id="text" placeholder="Username or email">
+                <div>
+                    <input type="text" name="nome1" id="nome1" placeholder="First Name">
+                    <input type="text" name="nome2" id="nome2" placeholder="Last Name">
+                </div>
+                <input type="email" name="email" id="email" placeholder="Email Address">
                 <input type="password" name="senha" id="senha" placeholder="Password">
 
-                <div class="checkbox">
-                  <input type="checkbox" name="checkbox" id="checkbox">
-                    <label for="checkbox">Keep me signed ub</label>
-                </div>
-                <button type="submit">Sing in</button>
+                <button type="submit">Sing Up</button>
             </form>
 
+            <div id="or_sing">
+                <hr><p>Or Sing in With</p><hr>
+            </div>
             <div class="imgs">
                 <figure><img src="./assets/Google.png" alt="Google"class="hover_img"></figure>
                 <figure><img src="./assets/facebook.png" alt=Facebook class="hover_img"></figure>
@@ -32,8 +36,8 @@
         </div>
 
         <div class="direita" >
-            <div class="colocar_X" class="hover_img" id="X_singUp"><img src="./assets/X_fechar.png" alt="Fechar" width="48px"></div>
-            <figure><img src="./assets/pessoa_chave.png" alt="Desenho de pessoa olhando um celular" width="278px" height="412px"></figure>
+            <div class="colocar_X" class="hover_img"><img src="./assets/X_fechar.png" alt="Fechar" width="48px"></div>
+            <figure><img src="./assets/pessoa_celular.png" alt="Desenho de pessoa olhando um celular"></figure>
         </div>
     </main>
 </body>
